@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resident Evil – Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<table width="100%">
+  <tr>
+    <td class="site-header">
+      <div class="site-title">☣ Resident Evil</div>
+      <div class="site-subtitle">Survival Horror Series — Est. 1996</div>
+    </td>
+  </tr>
+</table>
+
+<!-- ===== NAV ===== -->
+<div class="main-nav">
+  <table width="100%">
+    <tr>
+      <td align="center"><a href="index.html" class="active">Home</a></td>
+      <td align="center"><a href="pages/page2.html">Characters</a></td>
+      <td align="center"><a href="pages/page3.html">Weapons</a></td>
+      <td align="center"><a href="pages/page4.html">Games</a></td>
+      <td align="center"><a href="pages/page5.html">Chronology</a></td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== HERO ===== -->
+<table width="100%">
+  <tr>
+    <td class="hero">
+      <div class="hero-title">SURVIVE.<br>RESIST.<br>ESCAPE.</div>
+      <div class="hero-sub">// Umbrella Corporation has fallen — the nightmare has not</div>
+      <p>
+        Welcome to the Resident Evil archive. Since 1996, the series has defined
+        survival horror — blending biological terror, shadowy corporations, and
+        desperate human courage. Explore the characters who fight, the weapons
+        they carry, and the games that haunted a generation.
+      </p>
+      <a href="pages/page4.html" class="btn-explore">↳ Explore the Series</a>
+    </td>
+    <td align="right" valign="middle" style="padding:40px;">
+      <!-- IMAGE MAP – Bonus Task -->
+      <!-- Clickable regions on the RE factions image link to different pages -->
+      <div class="map-container">
+        <img
+          src="images/re_factions.jpg"
+          alt="Resident Evil Factions"
+          width="420"
+          usemap="#factions-map"
+          style="border:2px solid #2a2a2a;"
+        >
+      </div>
+
+      <map name="factions-map">
+        <!-- Top-left area → Characters page -->
+        <area
+          shape="rect"
+          coords="0,0,210,140"
+          href="pages/page2.html"
+          alt="Characters"
+          title="→ Characters"
+        >
+        <!-- Top-right area → Weapons page -->
+        <area
+          shape="rect"
+          coords="210,0,420,140"
+          href="pages/page3.html"
+          alt="Weapons"
+          title="→ Weapons"
+        >
+        <!-- Bottom-left area → Games page -->
+        <area
+          shape="rect"
+          coords="0,140,210,280"
+          href="pages/page4.html"
+          alt="Games"
+          title="→ Games"
+        >
+        <!-- Bottom-right area → Chronology page -->
+        <area
+          shape="rect"
+          coords="210,140,420,280"
+          href="pages/page5.html"
+          alt="Chronology"
+          title="→ Chronology"
+        >
+        <!-- Central circle → Home -->
+        <area
+          shape="circle"
+          coords="210,140,60"
+          href="index.html"
+          alt="Home"
+          title="↑ Back to Home"
+        >
+      </map>
+
+      <p style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#555;
+                 margin-top:10px;letter-spacing:2px;text-align:center;">
+        [ CLICK A REGION TO NAVIGATE ]
+      </p>
+    </td>
+  </tr>
+</table>
+
+<hr class="blood-line">
+
+<!-- ===== QUICK LINKS WITH IMAGE LINKS ===== -->
+<table width="100%">
+  <tr>
+    <td align="center" style="padding:30px 10px;">
+      <a href="pages/page2.html">
+        <img src="images/thumb_characters.jpg" alt="Characters" width="200"
+             style="border:2px solid #2a2a2a;display:block;margin:0 auto 10px;">
+      </a>
+      <p style="font-family:'Share Tech Mono',monospace;font-size:0.75rem;
+                color:#888;letter-spacing:2px;">CHARACTERS</p>
+    </td>
+    <td align="center" style="padding:30px 10px;">
+      <a href="pages/page3.html">
+        <img src="images/thumb_weapons.jpg" alt="Weapons" width="200"
+             style="border:2px solid #2a2a2a;display:block;margin:0 auto 10px;">
+      </a>
+      <p style="font-family:'Share Tech Mono',monospace;font-size:0.75rem;
+                color:#888;letter-spacing:2px;">WEAPONS</p>
+    </td>
+    <td align="center" style="padding:30px 10px;">
+      <a href="pages/page4.html">
+        <img src="images/thumb_games.jpg" alt="Games" width="200"
+             style="border:2px solid #2a2a2a;display:block;margin:0 auto 10px;">
+      </a>
+      <p style="font-family:'Share Tech Mono',monospace;font-size:0.75rem;
+                color:#888;letter-spacing:2px;">GAMES</p>
+    </td>
+    <td align="center" style="padding:30px 10px;">
+      <a href="pages/page5.html">
+        <img src="images/thumb_ch.jpg" alt="Chronology" width="200"
+             style="border:2px solid #2a2a2a;display:block;margin:0 auto 10px;">
+      </a>
+      <p style="font-family:'Share Tech Mono',monospace;font-size:0.75rem;
+                color:#888;letter-spacing:2px;">CHRONOLOGY</p>
+    </td>
+  </tr>
+</table>
+
+<hr class="blood-line">
+
+<!-- ===== FOOTER ===== -->
+<table width="100%">
+  <tr>
+    <td class="site-footer">
+      ☣ RESIDENT EVIL SERIES ARCHIVE &nbsp;|&nbsp; UMBRELLA CORPORATION IS WATCHING &nbsp;|&nbsp; EST. 1996
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
