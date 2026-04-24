@@ -1,0 +1,21 @@
+Resident Evil Interactive Archive
+
+Recommended launch options:
+
+1. Python local server
+   cd Resident_Evil_AJAX_SITE
+   python -m http.server 8000
+   Open http://localhost:8000/
+
+2. Python CGI server, if you want the fallback form receipt to run
+   cd Resident_Evil_AJAX_SITE
+   python -m http.server --cgi 8000
+   Open http://localhost:8000/pages/page6.html
+
+3. Visual Studio Code Live Server
+   Open the project folder in VS Code, right-click index.html, and select Open with Live Server.
+
+4. XAMPP
+   Copy the project folder into C:\xampp\htdocs\ and open http://localhost/Resident_Evil_AJAX_SITE/
+
+Do not open index.html directly through file:// because browsers can block dynamic JSON loading.
