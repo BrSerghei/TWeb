@@ -1,0 +1,289 @@
+{
+  "siteText": {
+    "Overview": {
+      "title": "Umbrella Archive — Live Overview",
+      "body": "This section updates dynamically from the archive dataset. The Resident Evil archive can switch between characters, incidents, equipment, chronology, and tactical profiles without reloading the page."
+    },
+    "Characters": {
+      "title": "Operative and Threat Records",
+      "body": "Chris, Jill, Leon, Claire, Wesker, and Birkin are stored as archive records. Select a subject and the description changes inside the same panel."
+    },
+    "Equipment": {
+      "title": "Emergency Equipment Files",
+      "body": "Weapons are presented as survival equipment. The archive changes the description for the combat knife, handgun, shotgun, SMG, bowgun, and rocket launcher instantly."
+    },
+    "Chronology": {
+      "title": "Incident Chronology",
+      "body": "The Resident Evil timeline is displayed by year. When a period is selected, the matching incident description appears inside a dedicated archive panel."
+    }
+  },
+  "locations": [
+    {
+      "id": "spencer",
+      "name": "Spencer Mansion",
+      "year": "1998",
+      "type": "Mansion / hidden research facility",
+      "description": "The Arklay Mountains incident site. Beneath the mansion, Umbrella facilities were used for T-Virus development and biological weapons research."
+    },
+    {
+      "id": "raccoon",
+      "name": "Raccoon City",
+      "year": "1998",
+      "type": "Contaminated city",
+      "description": "The epicenter of Umbrella's collapse in the United States. The city is destroyed after the T-Virus outbreak and the spread of B.O.W. creatures."
+    },
+    {
+      "id": "rpd",
+      "name": "R.P.D. Station",
+      "year": "1998",
+      "type": "Police station",
+      "description": "A former administrative building converted into a police station. It became one of the last resistance points during the Raccoon City outbreak."
+    },
+    {
+      "id": "baker",
+      "name": "Baker Estate",
+      "year": "2017",
+      "type": "Isolated estate",
+      "description": "The Baker family property, corrupted by Eveline's mold. The incident marks the series' return to intense survival horror."
+    },
+    {
+      "id": "village",
+      "name": "Eastern European Village",
+      "year": "2021",
+      "type": "Isolated village",
+      "description": "The village from Resident Evil Village combines local cult practices, mold-based experimentation, and four domains controlled by mutant lords."
+    },
+    {
+      "id": "umbrella-lab",
+      "name": "Umbrella Underground Lab",
+      "year": "1998",
+      "type": "Underground research facility",
+      "description": "A research facility used for virus development and biological weapons. Sites like this contain the strongest evidence of Umbrella's crimes."
+    }
+  ],
+  "images": [
+    {
+      "image": "chris.jpg",
+      "title": "Chris Redfield",
+      "description": "Direct combat profile: strength, team protection, and resistance against B.O.W. threats."
+    },
+    {
+      "image": "jill.jpg",
+      "title": "Jill Valentine",
+      "description": "Survival and tactical problem-solving specialist with a balanced field profile."
+    },
+    {
+      "image": "leon.jpg",
+      "title": "Leon S. Kennedy",
+      "description": "Calm under pressure and linked to both the Raccoon City collapse and the Los Illuminados operation."
+    },
+    {
+      "image": "claire.jpg",
+      "title": "Claire Redfield",
+      "description": "Civilian survivor focused on protecting vulnerable people in extreme biohazard situations."
+    },
+    {
+      "image": "wesker.jpg",
+      "title": "Albert Wesker",
+      "description": "Antagonist profile: control, experimentation, manipulation, and extreme biological ambition."
+    },
+    {
+      "image": "matilda.jpg",
+      "title": "Matilda Handgun",
+      "description": "A reliable sidearm associated with Raccoon City field survival and precise tactical response."
+    },
+    {
+      "image": "shotgun.jpg",
+      "title": "Shotgun",
+      "description": "A space-control weapon useful against close and aggressive biohazard threats."
+    },
+    {
+      "image": "rocket.jpg",
+      "title": "Rocket Launcher",
+      "description": "The final answer to massive mutations. In the archive, it usually marks the end of a boss encounter."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1996",
+      "title": "Resident Evil Series Launch",
+      "description": "The first game introduces Spencer Mansion, Umbrella Corporation, and the survival horror formula built around limited resources."
+    },
+    {
+      "year": "1998",
+      "title": "Arklay Incident and Raccoon City Collapse",
+      "description": "The key year of the series: S.T.A.R.S. investigates the mansion, and Raccoon City falls to biological contamination."
+    },
+    {
+      "year": "2004",
+      "title": "Los Illuminados Operation",
+      "description": "Leon investigates the disappearance of the president's daughter and uncovers the Las Plagas parasite."
+    },
+    {
+      "year": "2009",
+      "title": "Major Confrontation with Wesker",
+      "description": "Resident Evil 5 shifts the conflict to a global scale and closes the direct confrontation with Albert Wesker."
+    },
+    {
+      "year": "2017",
+      "title": "Baker Estate Incident",
+      "description": "Resident Evil 7 returns to personal horror, first-person perspective, and mold-based contamination."
+    },
+    {
+      "year": "2021",
+      "title": "Eastern European Incident",
+      "description": "Resident Evil Village expands the mold storyline through Miranda, the village lords, and the Winters family trauma."
+    }
+  ],
+  "maps": {
+    "incidentWorld": [
+      {
+        "id": "usa",
+        "label": "United States",
+        "title": "United States — Raccoon City / Arklay",
+        "description": "Home to the key Umbrella incidents: Spencer Mansion, Raccoon City, and underground research facilities."
+      },
+      {
+        "id": "spain",
+        "label": "Rural Europe",
+        "title": "Europe — Los Illuminados",
+        "description": "A rural region controlled by Los Illuminados, where Las Plagas replaces the classic T-Virus threat model."
+      },
+      {
+        "id": "africa",
+        "label": "Africa",
+        "title": "Kijuju / Tricell",
+        "description": "The Resident Evil 5 incident expands biological experimentation to a global scale and connects Umbrella's legacy to other organizations."
+      },
+      {
+        "id": "europe-east",
+        "label": "Eastern Europe",
+        "title": "Isolated Village",
+        "description": "The site of Resident Evil Village, dominated by Miranda and mutations connected to the mold."
+      }
+    ],
+    "raccoonCity": [
+      {
+        "id": "rpd",
+        "label": "R.P.D.",
+        "title": "Raccoon Police Department",
+        "description": "A resistance point and central location for Leon, Claire, and the city's remaining survivors."
+      },
+      {
+        "id": "streets",
+        "label": "Streets",
+        "title": "Raccoon City Streets",
+        "description": "Contaminated streets filled with zombies, civil panic, and very limited resources."
+      },
+      {
+        "id": "sewers",
+        "label": "Sewers",
+        "title": "Underground System",
+        "description": "A hidden route connecting the city to Umbrella facilities and Birkin's experimental traces."
+      },
+      {
+        "id": "nest",
+        "label": "NEST",
+        "title": "NEST Laboratory",
+        "description": "An advanced Umbrella facility where the G-Virus and other projects were documented."
+      }
+    ],
+    "umbrellaComplex": [
+      {
+        "id": "archive",
+        "label": "Archive",
+        "title": "Umbrella Archive",
+        "description": "The file section stores reports about characters, weapons, games, incidents, and experiments."
+      },
+      {
+        "id": "testing",
+        "label": "Testing",
+        "title": "B.O.W. Testing Zone",
+        "description": "A controlled area used to evaluate subject reactions to biological threats."
+      },
+      {
+        "id": "quarantine",
+        "label": "Quarantine",
+        "title": "Quarantine Sector",
+        "description": "The area where unstable profiles and failed assessment answers are isolated for correction."
+      },
+      {
+        "id": "control",
+        "label": "Control",
+        "title": "Control Room",
+        "description": "The central node for score checks, field validation, and real-time assessment feedback."
+      }
+    ]
+  },
+  "characters": [
+    {
+      "name": "Chris Redfield",
+      "role": "B.S.A.A. / S.T.A.R.S.",
+      "affiliation": "Anti-Umbrella",
+      "level": "Advanced",
+      "description": "A direct fighter focused on protection and frontal action."
+    },
+    {
+      "name": "Jill Valentine",
+      "role": "S.T.A.R.S. / B.S.A.A.",
+      "affiliation": "Anti-Umbrella",
+      "level": "Advanced",
+      "description": "A tactical specialist who remains calm and effective in impossible situations."
+    },
+    {
+      "name": "Leon S. Kennedy",
+      "role": "Government Agent",
+      "affiliation": "U.S. Government",
+      "level": "Medium-Advanced",
+      "description": "An adaptable survivor skilled at improvisation and civilian protection."
+    },
+    {
+      "name": "Claire Redfield",
+      "role": "TerraSave",
+      "affiliation": "Civil / NGO",
+      "level": "Medium",
+      "description": "An empathetic and resilient profile focused on saving vulnerable people."
+    },
+    {
+      "name": "Albert Wesker",
+      "role": "Director / Antagonist",
+      "affiliation": "Umbrella",
+      "level": "Classified",
+      "description": "Control, manipulation, experimentation, and extreme biological ambition."
+    },
+    {
+      "name": "William Birkin",
+      "role": "Virologist",
+      "affiliation": "Umbrella",
+      "level": "Classified",
+      "description": "G-Virus researcher associated with uncontrolled mutation and the fall of Raccoon City."
+    }
+  ],
+  "banner": [
+    {
+      "image": "images/chris.jpg",
+      "title": "Chris Redfield",
+      "text": "ALPHA profile: direct intervention against B.O.W. threats."
+    },
+    {
+      "image": "images/jill.jpg",
+      "title": "Jill Valentine",
+      "text": "OMEGA profile: survival, strategy, and mental resistance."
+    },
+    {
+      "image": "images/leon.jpg",
+      "title": "Leon S. Kennedy",
+      "text": "DELTA profile: rapid adaptation during urban and rural incidents."
+    },
+    {
+      "image": "images/wesker.jpg",
+      "title": "Albert Wesker",
+      "text": "CLASSIFIED profile: extreme risk and unauthorized biological potential."
+    },
+    {
+      "image": "images/matilda.jpg",
+      "title": "Matilda Handgun",
+      "text": "STANDARD ISSUE profile: reliable sidearm for controlled survival under biohazard pressure."
+    }
+  ]
+}
