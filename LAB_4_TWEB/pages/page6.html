@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resident Evil — Personnel Assessment</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<!-- header -->
+<div class="site-header">
+  <div class="site-title glitch" data-text="☣ Resident Evil">☣ Resident Evil</div>
+  <div class="site-subtitle">Personnel Assessment — Umbrella Corporation</div>
+</div>
+
+<!-- navigation -->
+<nav class="main-nav">
+  <ul class="nav-list">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="page2.html">Characters</a></li>
+    <li><a href="page3.html">Weapons</a></li>
+    <li><a href="page4.html">Games</a></li>
+    <li><a href="page5.html">Chronology</a></li>
+    <li><a href="page6.html" class="active">Assessment</a></li>
+  </ul>
+</nav>
+
+<!-- section header -->
+<div class="section-header">
+  <h2>☣ Umbrella Corporation — Personnel Assessment</h2>
+  <p>
+    All field operatives must complete psychological and tactical profiling.
+    Your responses will be matched against our known operative database.
+    Honesty is encouraged. Deception is detectable.
+  </p>
+</div>
+
+<!-- table of contents -->
+<div class="wrapper">
+  <nav class="toc">
+    <div class="toc-title">// Assessment Modules</div>
+    <ul class="toc-list">
+      <li><a href="#module-identity">Module 01 — Identity</a></li>
+      <li><a href="#module-tactical">Module 02 — Tactical Profile</a></li>
+      <li><a href="#module-psych">Module 03 — Psychological</a></li>
+      <li><a href="#module-intel">Module 04 — Intelligence Report</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- progress bar -->
+<div class="progress-wrapper">
+  <div class="progress-label">
+    <span>// Form Completion</span>
+    <span id="form-progress-pct">0%</span>
+  </div>
+  <div class="progress-track">
+    <div id="form-progress-bar"></div>
+  </div>
+</div>
+
+<!-- form -->
+<div class="form-wrapper">
+  <form id="umbrella-form" novalidate autocomplete="off">
+
+    <!-- module 01 — identity -->
+    <div id="module-identity" class="form-module-title">Module 01 — Identity</div>
+
+    <div class="field-group">
+      <label class="field-label" for="name">Full Legal Name</label>
+      <span class="field-hint">// As registered with Umbrella HR Division</span>
+      <input class="field-input" type="text" id="name" name="name"
+             placeholder="e.g. Jill Valentine" maxlength="60" autocomplete="off">
+      <span class="field-err-msg" id="name-error"></span>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="codename">Field Codename</label>
+      <span class="field-hint">// Designation used on active assignments</span>
+      <input class="field-input" type="text" id="codename" name="codename"
+             placeholder="e.g. STAR-JILL or WESKER-01" maxlength="30" autocomplete="off">
+      <span class="field-err-msg" id="codename-error"></span>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="email">Secure Communication Channel</label>
+      <span class="field-hint">// Encrypted email endpoint — do not use personal accounts</span>
+      <input class="field-input" type="email" id="email" name="email"
+             placeholder="operative@umbrella-corp.net" maxlength="100" autocomplete="off">
+      <span class="field-err-msg" id="email-error"></span>
+    </div>
+
+    <!-- module 02 — tactical -->
+    <div id="module-tactical" class="form-module-title">Module 02 — Tactical Profile</div>
+
+    <div class="field-group">
+      <label class="field-label" for="weapon">Primary Weapon of Choice</label>
+      <span class="field-hint">// The weapon you reach for first under threat</span>
+      <select class="field-input" id="weapon" name="weapon">
+        <option value="" disabled selected>-- Select Weapon --</option>
+        <option value="knife">Combat Knife — Silent. Close. Nerve-testing.</option>
+        <option value="handgun">Handgun — Reliable. Controlled. Professional.</option>
+        <option value="shotgun">Shotgun — Decisive. Loud. No second chances.</option>
+        <option value="smg">Submachine Gun — Aggressive. Overwhelming. Resourceful.</option>
+        <option value="rocket">Rocket Launcher — Final. Definitive. Expensive.</option>
+        <option value="bowgun">Bowgun — Precise. Patient. Underestimated.</option>
+      </select>
+      <span class="field-err-msg" id="weapon-error"></span>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label">Threat Response — First Instinct</label>
+      <span class="field-hint">// When cornered with a threat closing in — what do you do?</span>
+      <div class="radio-group" id="instinct-group">
+        <label class="radio-label">
+          <input type="radio" name="instinct" value="fight">
+          <span class="radio-text">
+            <strong>Engage Directly</strong>
+            Confront it head-on. Every second is a second someone else is in danger.
+          </span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="instinct" value="stealth">
+          <span class="radio-text">
+            <strong>Evade &amp; Observe</strong>
+            Retreat. Assess. Engage only when the odds are yours.
+          </span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="instinct" value="run">
+          <span class="radio-text">
+            <strong>Extract &amp; Regroup</strong>
+            Survival is the mission. Live to fight another day.
+          </span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="instinct" value="dominate">
+          <span class="radio-text">
+            <strong>Dominate the Situation</strong>
+            Threats are resources. You are the threat now.
+          </span>
+        </label>
+      </div>
+      <span class="field-err-msg" id="instinct-error"></span>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="favGame">Field Experience — Favourite Entry</label>
+      <span class="field-hint">// Which incident do you study most closely?</span>
+      <select class="field-input" id="favGame" name="favGame">
+        <option value="" disabled selected>-- Select Incident File --</option>
+        <option value="re1">RE1 — Spencer Estate Incident (1996)</option>
+        <option value="re2">RE2 — Raccoon City Collapse (1998)</option>
+        <option value="re3">RE3 — Nemesis Protocol (1999)</option>
+        <option value="re4">RE4 — Los Illuminados Operation (2004)</option>
+        <option value="re7">RE7 — Baker Estate Incident (2017)</option>
+        <option value="re8">RE Village — Eastern European Incident (2021)</option>
+      </select>
+      <span class="field-err-msg" id="favGame-error"></span>
+    </div>
+
+    <!-- module 03 — psychological -->
+    <div id="module-psych" class="form-module-title">Module 03 — Psychological</div>
+
+    <div class="field-group">
+      <label class="field-label">Operative Priority Under Crisis</label>
+      <span class="field-hint">// Resources depleted, mission failing — what matters most?</span>
+      <div class="radio-group">
+        <label class="radio-label">
+          <input type="radio" name="priority" value="protect">
+          <span class="radio-text">
+            <strong>Protect the Civilian</strong>
+            No life is acceptable collateral. Everyone goes home.
+          </span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="priority" value="intel">
+          <span class="radio-text">
+            <strong>Secure the Data</strong>
+            Evidence of Umbrella's crimes must reach the surface.
+          </span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="priority" value="survive">
+          <span class="radio-text">
+            <strong>Survive at Any Cost</strong>
+            A living operative serves another day. Sentimentality is a liability.
+          </span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="priority" value="dominate">
+          <span class="radio-text">
+            <strong>Complete the Experiment</strong>
+            The virus was always the priority. Evolution cannot be stopped.
+          </span>
+        </label>
+      </div>
+      <span class="field-err-msg" id="priority-error"></span>
+    </div>
+
+    <!-- module 04 — intel -->
+    <div id="module-intel" class="form-module-title">Module 04 — Intelligence Report</div>
+
+    <div class="field-group">
+      <label class="field-label" for="message">Field Report / Additional Intel</label>
+      <span class="field-hint">// Optional. Anything the assessment board should know. Max 800 characters.</span>
+      <textarea class="field-input" id="message" name="message"
+                placeholder="// Begin field report — classify as ALPHA or above..."
+                maxlength="800"></textarea>
+      <span class="field-err-msg" id="message-error"></span>
+    </div>
+
+    <!-- submit -->
+    <div class="form-submit-row">
+      <p class="form-notice">
+        // By submitting this form you acknowledge Umbrella Corporation's right to full psychological<br>
+        // and tactical profiling of all registered operatives. Data is retained indefinitely.
+      </p>
+      <button type="submit" class="btn-submit">// Submit Assessment</button>
+    </div>
+
+  </form>
+</div>
+
+<hr class="blood-line">
+
+<!-- result panel -->
+<div id="result-panel"></div>
+
+<!-- footer -->
+<footer class="site-footer">
+  ☣ Resident Evil Series Archive &nbsp;|&nbsp; Umbrella Corporation Is Watching &nbsp;|&nbsp; Est. 1996
+</footer>
+
+<script src="../form-script.js"></script>
+<script src="../effects.js"></script>
+</body>
+</html>
